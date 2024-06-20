@@ -1,20 +1,25 @@
 
 **Atomic Development**
+
 The five distinct levels of atomic design — atoms > molecules > organisms > templates > pages — map incredibly well to React’s component-based architecture.
 
-_Atoms_
+**Atoms**
+
 Basic building blocks of matter, such as a button, input or a form label. They’re not useful on their own.
 
-_Molecules_
+**Molecules**
+
 Grouping atoms together, such as combining a button, input and form label to build functionality.
 
-_Organisms_
+**Organisms**
+
 Combining molecules together to form organisms that make up a distinct section of an interface (i.e. navigation bar)
 
-_Templates_
+**Templates**
 Consisting mostly of groups of organisms to form a page — where clients can see a final design in place.
 
-_Pages_
+**Pages**
+
 An ecosystem that views different template renders. We can create multiple ecosystems into a single environment — the application.
 
 
